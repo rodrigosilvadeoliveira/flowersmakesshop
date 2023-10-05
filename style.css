@@ -1,0 +1,930 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-image: linear-gradient(45deg, cyan, yellow);*/
+    background-color: #f8bdc6;
+    }
+    .tela-login{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    
+    }
+    .scroll-horizontal {
+        width: 100%; /* Defina a largura do elemento, ajuste conforme necessário */
+        white-space: nowrap; /* Impede a quebra de texto para que o conteúdo não quebre em várias linhas */
+        overflow-x: auto; /* Adiciona uma barra de rolagem horizontal quando o conteúdo exceder a largura */
+        border: 1px solid #ccc; /* Apenas para fins de demonstração, pode ser removido */
+    }
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+        /* outros estilos desejados para o cabeçalho */
+      }
+      main {
+        margin-top: 100px; /* Garanta que o conteúdo principal não seja obscurecido pelo cabeçalho */
+      }
+
+    .login{
+
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        
+        }
+
+        .inputSubmit{
+            background-color: #FF1493;
+            background-origin: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font: 15px;
+        
+        }
+        .inputSubmit:hover{
+            background-color:  #FF007F;
+            cursor: pointer;
+            
+        }
+        
+#logo{
+    top: 1px;
+    width: 180px;
+    height: 160px;
+    align-items: center;
+}
+#logologin{
+    top: 1px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin-top: ;
+    margin-left: 5%;
+}
+#flowers{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -12%;
+    height: top;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(172, 16, 130);
+    font-size: 80px;
+}
+#meuForm{
+    margin-left: 1%;
+}
+#BemVindo
+{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(172, 16, 130);
+    
+}
+#openModal{
+    margin-left: 1%;
+    background-color: ;
+    margin-top: 1%;
+}
+#BemVindorelatorio
+{
+    text-align: center;    
+    color: rgb(172, 16, 130);
+    margin-top: 2%;
+
+}
+#exportar
+{
+    margin-top: auto;
+    margin-left: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#login,#cadastre{
+    position: relative;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 3px solid dodgerblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+#login:hover,#cadastre:hover{
+    background-color: dodgerblue;
+}
+.boxlogin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 15px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 13,5%;
+}
+
+/*formulario dados cadastro do usuario - pagina formulario*/
+.box{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.boxformularioDatas{
+    border: 3px solid  rgb(172, 16, 130);
+    width: 40%; 
+    height: 220%;
+    margin-left: 2%; 
+    margin-top:2%; 
+    background-color:#f8bdc6">
+}
+legend{
+    border: 1px rgb(30, 79, 255);
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    /*background-color: dodgerblue;*/
+    border-radius: 8px;
+    color: white;
+}
+.inputBox{
+    position: relative;
+
+}
+.inputUser{
+    margin-top: 40PX;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+/*.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}*/
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top:-20px;
+    font-size: 12px;
+    color: dodgerblue;
+
+}
+.campoProduto{
+
+    font-size: 20px;
+    width: 98%;
+    margin-left: 5px;
+}
+.form-label{
+    font-weight: bold
+}
+/*Campos do formulario produtos*/
+.nomedoCampo{
+    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*campos de texto e numeros de formulario produtos e vendas*/
+.campoTexto{
+    width: 100%;
+}
+.campoNumero{
+    width: 50%;
+}
+.campodeFormulario{
+    font-weight: bold;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+
+}
+#submit{
+    
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    /*
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    */
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
+}
+
+#update{
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#update:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
+}
+#incluirCadastro{
+    margin-left: 15px;
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 10%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+#incluirCadastro:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
+}
+#vendasrealizadas{
+    margin-left: 15px;
+    margin-right: 30px;
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 10%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+#vendasrealizadas:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
+}
+#incluirProduto{
+    margin-top: 15px;
+    margin-left: 155px;
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 60%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+#incluirProduto:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
+}
+#tabelaLista{
+    margin-left: 15px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 98.5%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#tabelaAtendimento{
+    margin-left: 15px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+#tabelaatendimentomobile{
+    display: none;
+    }
+    #confirmarmobile{
+        display: none;
+    }
+    #confirmar{
+        margin-top: 1%;
+        margin-left: 1%;
+        background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+        width: 15%;
+    }
+#carrinho{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+#voltar {
+    margin-top: 5%;
+    margin-left: -0.8%;
+    width: 5vw;
+    height: 5vh;
+    fill: rgb(172, 16, 130);
+  }
+  #menu {
+    display: none;
+  }
+  #pular {
+    margin-top: 55%;
+}
+
+.d-flex {
+    margin-left: 2% ;
+    
+}
+
+#sair {
+    margin-left: -15% ;
+    }
+#dataRelatorio{
+    margin-left: 1% ;
+
+}
+.modal-header{
+    background-color: #f8bdc6;
+
+}
+.modal-footer{
+    background-color: #ccc;
+	width: 100%;
+	height: 25vh;
+    
+    
+}
+.btn btn-primary{
+   
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 50%;
+    
+}
+.nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+}  
+#logoFlowers{
+    width: 80px;
+    height: 70px;
+}
+/* Estilos para o vídeo da câmera */
+video {
+    margin-top: -3%;
+    margin-left: 25%;
+    width: 50%;
+    height: 35%;
+}
+
+.drawingBuffer{
+    width: 400;
+    height: 400;
+}
+.lercodigo{
+    width: 40%;
+    margin-top: -40%;
+    margin-left: 27%;
+}
+#closeModal{
+    margin-top: 1%;
+    margin-left: 24.8%;
+    width: 52%;
+}
+@media (max-width: 999px){
+    #flowers{
+        
+        font-size: 45px;
+
+    }
+    #dataRelatorio{
+        margin-left: 1% ;
+    
+    }
+    .tela-login{
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 35px;
+        border-radius: 15px;
+        color: white;
+        
+        }
+    #BemVindo
+    {
+        margin-top: 10%;
+        text-align: center;
+        color: rgb(172, 16, 130);
+        
+    }
+    #logoFlowers{
+        display: none
+    }
+    #sair {
+        margin-left: 1220% ;
+        margin-top: -75%;
+        }
+        #tabelaAtendimento{
+            display: none;
+        }
+    #tabelaatendimentomobile{
+    display: inline-table;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+        
+    }
+    #confirmar{
+        margin-top: 4%;
+        margin-left: 4%;
+        background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+        width: 50%;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-content {
+        background-color: white;
+        width: 95%;
+        height: 90%;
+        max-width: 600px;
+        margin-top: 5%;
+        margin-left: 2%;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    /* Estilos para o vídeo da câmera */
+    video {
+        margin-top: -3%;
+        margin-left: 3%;
+        width: 90%;
+        height: 75%;
+    }
+    
+    .drawingBuffer{
+        width: 400;
+        height: 400;
+    }
+    .lercodigo{
+        margin-top: -40%;
+    }
+    #closeModal{
+        margin-top: 2%;
+    }
+    .boxformularioDatas{
+        width: 90%; 
+        height: 220%;
+        margin-left: 1.7%; 
+        margin-top:2%; 
+       
+    }
+    .boxformulariodatasconsulta{
+        width: 85%; 
+        height: 220%;
+        margin-left: 4%; 
+        margin-top:2%; 
+       
+    }    
+    #incluirCadastro{
+        font-size: 20px;
+     }
+    
+}
+
+
+@media (max-width: 800px){
+    #flowers{
+        
+        font-size: 45px;
+
+    }
+    #dataRelatorio{
+        margin-left: 1% ;
+    
+    }
+    .tela-login{
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 35px;
+        border-radius: 15px;
+        color: white;
+        
+        }
+    #BemVindo
+    {
+        margin-top: 10%;
+        text-align: center;
+        color: rgb(172, 16, 130);
+        
+    }
+    #logoFlowers{
+        display: none
+    }
+    #sair {
+        margin-left: 1220% ;
+        margin-top: -75%;
+        }
+        #tabelaAtendimento{
+            display: none;
+        }
+    #tabelaatendimentomobile{
+    display: inline-table;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+        
+    }
+    #confirmar{
+        margin-top: 4%;
+        margin-left: 4%;
+        background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+        width: 50%;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-content {
+        background-color: white;
+        width: 95%;
+        height: 90%;
+        max-width: 600px;
+        margin-top: 5%;
+        margin-left: 2%;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    /* Estilos para o vídeo da câmera */
+    video {
+        margin-top: -3%;
+        margin-left: 3%;
+        width: 90%;
+        height: 75%;
+    }
+    
+    .drawingBuffer{
+        width: 400;
+        height: 400;
+    }
+    .lercodigo{
+        margin-top: -40%;
+    }
+    #closeModal{
+        margin-top: 2%;
+    }
+    .boxformularioDatas{
+        width: 90%; 
+        height: 220%;
+        margin-left: 4%; 
+        margin-top:2%; 
+       
+    }
+    .boxformulariodatasconsulta{
+        width: 85%; 
+        height: 220%;
+        margin-left: 4%; 
+        margin-top:2%; 
+       
+    }    
+}
+
+@media (max-width: 541px){
+    #voltar {
+        margin-top: 5%;
+        margin-left: 1%;
+        width: 6vw;
+        height: 6vh;
+        fill: rgb(172, 16, 130);
+      }
+      .boxformularioDatas{
+        width: 70%; 
+        height: 220%;
+        margin-left: 4%; 
+        margin-top:2%; 
+       
+    }
+    .boxformulariodatasconsulta{
+        width: 85%; 
+        height: 220%;
+        margin-left: 4%; 
+        margin-top:2%; 
+       
+    }
+    #BemVindo
+    {
+        margin-top: 13%;
+        text-align: center;
+        color: rgb(172, 16, 130);
+        font-size: 24px;
+        
+    }
+    
+    #logoFlowers{
+        display: none
+    }
+    #sair {
+        margin-left: 630% ;
+        margin-top: -75%;
+        }
+        #tabelaAtendimento{
+            display: none;
+        }
+    #tabelaatendimentomobile{
+    display: inline-table;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+        
+    }
+    #incluirCadastro{
+        margin-left: 13px;
+           
+    }
+    #confirmar{
+        margin-top: 4%;
+        margin-left: 4%;
+        background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+        width: 50%;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-content {
+        background-color: white;
+        width: 95%;
+        height: 90%;
+        max-width: 600px;
+        margin-top: 5%;
+        margin-left: 2%;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    /* Estilos para o vídeo da câmera */
+    video {
+        margin-top: 10%;
+        margin-left: 3%;
+        width: 90%;
+        height: 75%;
+    }
+    
+    .drawingBuffer{
+        width: 400;
+        height: 400;
+    }
+    .lercodigo{
+        margin-top: -10%;
+        margin-left: 11%;
+        width: 50%;
+    }
+    #closeModal{
+        margin-top: 2%;
+        margin-left: 12%;
+        width: 72%;
+    }
+    #flowers{
+        
+        font-size: 35px;
+       }
+       .tela-login{
+        margin-top: 5%;
+        }
+        #camera{
+            margin-top: -10%;
+            height: 270px;
+        }
+        #openModal{
+            margin-left: 5%;
+            margin-top: 1%;
+        }
+        #consultar{
+            margin-left: 4%;
+        }
+}
+  @media (max-width: 400px){
+    .d-flex {
+        margin-left: 10% ;
+        
+    }
+    #logo{
+        top: 1px;
+        width: 100px;
+        height: 90px;
+        align-items: center;
+    }
+    #openModal{
+        margin-left: 5%;
+        background-color: ;
+    }
+    
+    #BemVindo
+{
+    margin-top: 13%;
+    text-align: center;
+    color: rgb(172, 16, 130);
+    
+}
+#meuForm{
+    margin-left: 3%;
+}
+
+    #sair {
+        margin-left: 500% ;
+        margin-top: -90%;
+        }
+    #logoFlowers{
+        display: none
+    }
+    #pesquisar{
+        display: none
+    }
+    #flowers{
+        
+       font-size: 35px;
+            
+    }
+    
+    .tela-login{
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 65px;
+        border-radius: 15px;
+        color: white;
+        
+        }
+        .boxlogin{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-25%);
+            border-radius: 15px;
+            color: black;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 15px;
+            width: 13,5%;
+        }
+    .navbar-brand {
+            display: none;
+          }
+                 
+        #consultar{
+            margin-left: 2%;
+        }
+        #tabelaAtendimento{
+            display: none;
+        }
+    #tabelaatendimentomobile{
+    display: inline-table;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+        
+    }
+        #confirmar{
+            margin-top: 2%;
+            margin-left: 4%;
+            background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+            width: 50%;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            background-color: white;
+            width: 95%;
+            height: 90%;
+            max-width: 600px;
+            margin-top: 5%;
+            margin-left: 2%;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Estilos para o vídeo da câmera */
+        video {
+            margin-top: -5%;
+            margin-left: -3%;
+            width: 105%;
+            height: 120%;
+        }
+        
+        .drawingBuffer{
+            width: 400;
+            height: 400;
+        }
+        .lercodigo{
+            margin-top: 10%;
+        }
+        #closeModal{
+            margin-top: 2%;
+        }
+
+  }
