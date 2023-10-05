@@ -80,7 +80,8 @@ $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
       <th scope="col">Marca</th>
       <th scope="col">Caracteristicas</th>
       <th scope="col">Preço</th>
-      <th scope="col">Preço de compra</th>
+      <!--
+      <th scope="col">Preço de compra</th>-->
       <th scope="col">usuario</th>
       <th scope="col">data</th>
       <th scope="col">hora</th>
@@ -116,7 +117,7 @@ while($user_data = mysqli_fetch_assoc($result))
             
             echo "<td>" .$user_data['valordevenda']. "</td>";
 
-            echo "<td>" .$user_data['valordecompra']. "</td>";
+           // echo "<td>" .$user_data['valordecompra']. "</td>";
             
             echo "<td>" .$user_data['usuario']. "</td>";
 
