@@ -26,6 +26,7 @@ body{
         top: 0;
         width: 100%;
         background-color: #f0f0f0;
+        z-index: 100;
         /* outros estilos desejados para o cabeçalho */
       }
       main {
@@ -73,7 +74,7 @@ body{
 }
 #flowers{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: -5%;
+    margin-top: -12%;
     height: top;
     line-height: 80px;
     text-align: center;
@@ -127,8 +128,8 @@ body{
 }
 .boxlogin{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 2%;
+    left: 90%;
     transform: translate(-50%,50%);
     border-radius: 15px;
     color: black;
@@ -227,6 +228,13 @@ legend{
     font-weight: bold;
 }
 
+#boxcliente{
+    width: 30%; 
+    height: 60%; 
+    margin: 40px auto;
+    margin-left: 1% ; 
+    background-color: #007bff;
+}
 #data_nascimento{
     border: none;
     padding: 8px;
@@ -238,23 +246,34 @@ legend{
 #submit{
     
     background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
-    /*
-    width: 100%;
+    
+    width: 70%;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
+}
+
+.atualizar{
+    background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
+    width: 50%;
     border: none;
     padding: 15px;
     color: white;
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
-    */
 }
-#submit:hover{
-    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80,19,195));
-}
-
 #update{
     background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
-    width: 100%;
+    width: 30%;
+    height: 50%;
     border: none;
     padding: 15px;
     color: white;
@@ -398,9 +417,9 @@ legend{
     background-color: #ccc;
 	width: 100%;
 	height: 25vh;
-    
-    
+       
 }
+
 .btn btn-primary{
    
     background-image: linear-gradient(to right, rgb(172, 16, 130), rgb(90,20,220));
@@ -411,6 +430,9 @@ legend{
     background-color: #007bff;
     color: #ffffff;
 }  
+.nav-link{
+    font-size: 18px;
+}
 #logoFlowers{
     width: 80px;
     height: 70px;
@@ -436,6 +458,312 @@ video {
     margin-top: 1%;
     margin-left: 24.8%;
     width: 52%;
+}
+/*Site*/
+.nossaloja{
+    width: 20%;
+    height: 10%
+}
+.endloja{
+    margin-left: 2%;
+}
+.mensagem{
+    width: 30%;
+    height: 80%
+}
+.continuarcomprando{
+    width: 20%;
+    margin-left: 1%;
+    color: white;
+    background-color: #aa5377;
+    text-decoration: none;
+    border: 3px solid #aa5377;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.confirmarpedido{
+   
+    position: ;
+    margin-left: ;
+    text-align: center;
+    color: white;
+    background-color: #aa5377;
+    text-decoration: none;
+    border: 3px solid dodgerblue;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+.boxcarrinho{
+    position: absolute;
+    top: 26%;
+    left: 90%;
+    transform: translate(-50%,-25%);
+    border-radius: 15px;
+    color: black;
+    background-color: ;
+    padding: 15px;
+    border-radius: 15px;
+    width: 13,5%;
+}
+.imgloja{
+    
+    width: 350px;
+    height: 350px;
+}
+.linkloja{
+    margin-top: 200px;
+}
+#continuar{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border: 3px solid dodgerblue;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+#cabecalho{
+    margin-top: 10px;
+}
+#logoSite{
+    top: 1px;
+    width: 120px;
+    height: 100px;
+    align-items: center;
+}
+.titulocarrinho{
+    margin-top: 15%;
+    text-align: center;
+}
+.dadosentrega{
+    text-align: center;
+
+}
+.fraseentrega{
+    text-align: center;
+    font-size: 18px;
+}
+.dadoscliente{
+    margin-left: 2%;
+}
+.imagens{
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+
+}
+.imagenscarroussel{
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    padding: 2%;
+
+}
+.produto-info {
+    font-size: 14px;
+}
+#tituloSite{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -7%;
+    height: top;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(172, 16, 130);
+    font-size: 40px;
+}
+#fraseSite{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -3%;
+    height: top;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(172, 16, 130);
+    font-size: 20px;
+}
+#tabelaProduto{
+    margin-left: ;
+    width: 10%;
+    
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.container {
+    display: flex; /* Use flexbox para alinhar os elementos lado a lado */
+    margin-bottom: 90%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.boxpro{
+    background:  white;
+    align-items: center; /* Alinhe verticalmente no centro */
+    width: 200px; /* Define a largura máxima de cada caixa */
+    margin: 10px; /* Adicione margens para espaçamento entre as caixas */
+    margin-left: 5%;
+}
+.boxhome{
+    
+    background:  ;
+    align-items: flex-start; /* Alinhe verticalmente no centro */
+    width: 200px; /* Define a largura máxima de cada caixa */
+    height: 200px;
+    margin: 100px; /* Adicione margens para espaçamento entre as caixas */
+}
+.containerhome {
+    display: flex; /* Use flexbox para alinhar os elementos lado a lado */
+    margin-bottom: 90%;
+    margin-top: -10%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.fieldhome{
+    width: 80%;
+    background: ;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+
+.addCarrinho{
+    height: 30px;
+    font-size: 14px;
+}
+#tabelaCarrinho {
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#tabelaCarrinhos table {
+    width: 100%;
+}
+
+#tabelaCarrinhos tr {
+    display: inline-block;
+    width: 15%;
+    box-sizing: border-box;
+}
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.carroussel-container {
+    display: contents;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    z-index: 50;
+}
+.produtos {
+    width: 30%; /* Ajuste a largura desejada para seus produtos */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#titulocategoria{
+    margin-top: 250px;
+    text-align: center;
+    font-family: cursive;
+    color: ;
+}
+
+#titulohome{
+    margin-top: 10%;
+    text-align: center;
+    font-family: cursive;
+    color: ;
+}
+
+.carroussel{
+    margin-top: 15%;
+ 
+}
+#sobre_prod {
+    border: 25px solid #903;
+    background: #903;
+    margin: 0;
+    padding:0;
+}
+#sobre {
+    list-style: none; 
+    margin: 10px;
+     display: inline;
+}
+#sobre a {
+    padding: 20px 40px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+/* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+     border-radius:5px;
+}
+#sobre a:hover {
+    background: #CCC;
+    color: #000; 
+     border-color: #000;
+}
+#slider_horizontal {
+	display: block;
+	width: 100%;
+	overflow-x: scroll;
+	margin-top: -30px;
+	padding: 5px;
+	box-sizing: border-box;
+	
+}
+#slider_horizontal::-webkit-scrollbar {
+	display: none;
+}
+#container_slider {
+	display: block;
+	white-space: nowrap;
+margin-top: -15px;
+}
+.horizontal_slider::-webkit-scrollbar {
+	display: none;
+}
+	
+
+	.slider_container {
+		display: block;
+		white-space: nowrap;
+
+	}
+.item {
+
+    display: inline-block;
+    margin-right: 10px;
+}
+@media (max-width: 1025px){
+    .titulocarrinho{
+        margin-top: 28%;
+        text-align: center;
+    }
+    .continuarcomprando{
+        width: 27%;
+        font-size: 20px;
+}
+.carroussel{
+    margin-top: 25%;
+ 
+}
 }
 @media (max-width: 999px){
     #flowers{
@@ -550,9 +878,33 @@ video {
     #incluirCadastro{
         font-size: 20px;
      }
-    
-}
+/*site*/
+.titulocarrinho{
+    margin-top: 30%;
+    text-align: center;
+} 
 
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.produtos {
+    width: 30%; /* Ajuste a largura desejada para seus produtos */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.continuarcomprando{
+    width: 30%;
+    font-size: 20px;
+}
+.carroussel{
+    margin-top: 30%;
+ 
+}
+}
 
 @media (max-width: 800px){
     #flowers{
@@ -663,8 +1015,31 @@ video {
         margin-left: 4%; 
         margin-top:2%; 
        
-    }    
+    }
+    /*site*/
+.titulocarrinho{
+    margin-top: 43%;
+    text-align: center;
 }
+.imagens{
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+
+}
+.produto-info {
+    font-size: 14px;
+}
+.continuarcomprando{
+    width: 35%;
+    font-size: 20px;
+}
+.carroussel{
+    margin-top: 45%;
+ 
+}
+}
+
 
 @media (max-width: 541px){
     #voltar {
@@ -791,6 +1166,19 @@ video {
         #consultar{
             margin-left: 4%;
         }
+        /*site*/
+.titulocarrinho{
+    margin-top: 55%;
+    text-align: center;
+}
+.continuarcomprando{
+    width: 50%;
+    font-size: 20px;
+}
+.carroussel{
+    margin-top: 60%;
+ 
+}   
 }
   @media (max-width: 400px){
     .d-flex {
@@ -926,5 +1314,12 @@ video {
         #closeModal{
             margin-top: 2%;
         }
-
+        .titulocarrinho{
+            margin-top: 75%;
+            text-align: center;
+        }
+        .carroussel{
+            margin-top: 95%;
+         
+        }
   }
